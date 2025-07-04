@@ -167,7 +167,7 @@ if (ENABLE_BLAS)
       message(FATAL_ERROR "ENABLE_BLAS=ON, but a BLAS library was not found")
     endif()
 
-  if(ENABLE_CXX)
+  if(ENABLE_CXX_PP)
     set(BPP_GIT_TAG v2025.05.28)
     set(LPP_GIT_TAG v2025.05.28)
     set(SPP_GIT_TAG 6397f52cf11c0dfd82a79698ee198a2fce515d81)
